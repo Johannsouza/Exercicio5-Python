@@ -1,0 +1,7 @@
+def converter(c):
+    return (c * 9/5) + 32
+
+c = float(input("Digite a temperatura em graus Celsius: "))
+
+f = converter(c)
+print(f"{c}°C equivale a {f}°F.")
